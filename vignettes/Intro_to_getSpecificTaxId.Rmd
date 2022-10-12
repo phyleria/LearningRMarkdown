@@ -1,0 +1,46 @@
+---
+title: "Introduction to getSpecificTaxId Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to getSpecificTaxId}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(getSpecificTaxId)
+
+## Project Description
+#getSpecificTaxId is package with a function that imports data from BugSigDB using bugSigdbr and returns Signatures within the specified Tax Id.
+#It takes two parameters:
+#  1. Tax level
+#  2. Minimum Size
+#*Note* Exact tax level is set to TRUE
+#*
+#*
+## Examples
+
+``` 
+getMetaphlan <- getSpecificTaxId(df,
+                                 tax.id.type = ("metaphlan"),
+                                 tax.level = "mixed",
+                                 exact.tax.level = TRUE,
+                                 min.size = 1)
+                                 
+ ```
+ ```
+ getTaxname <- getSpecificTaxId(df,
+                                 tax.id.type = ("taxname"),
+                                 tax.level = "mixed",
+                                 exact.tax.level = TRUE,
+                                 min.size = 1)
+
+```
+  
