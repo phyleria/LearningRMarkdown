@@ -18,7 +18,7 @@ install_github("getSpecificTaxId")
 
 ## Example
 
-This is a basic example which shows how to use helloWorld:
+This is a basic example which shows how to use getSpecificTaxId:
 
 ``` r
 getMetaphlan <- getSpecificTaxId(df,
