@@ -28,6 +28,7 @@ getMetaphlan <- getSpecificTaxId(df,
                                  tax.level = "mixed",
                                  exact.tax.level = TRUE,
                                  min.size = 1)
+#> $`bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP`
 #>  [1] "k__Bacteria|p__Firmicutes|c__Bacilli"                                                                                        
 #>  [2] "k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria"                                                                        
                                                           
