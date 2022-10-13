@@ -21,6 +21,8 @@ install_github("getSpecificTaxId")
 This is a basic example which shows how to use getSpecificTaxId:
 
 ``` r
+library(getSpecificTaxId)
+
 getMetaphlan <- getSpecificTaxId(df,
                                  tax.id.type = ("metaphlan"),
                                  tax.level = "mixed",
