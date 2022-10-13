@@ -14,6 +14,6 @@ getSpecificTaxId <- function(df,
 
 sigs<-sigs[lengths(sigs)>=min.size]
 sigs<-lapply(sigs,unique)
-return(sigs)
+return(sigs[1:3])
 }
 
