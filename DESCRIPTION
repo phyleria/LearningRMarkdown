@@ -1,13 +1,14 @@
 Package: getSpecificTaxId
-Title: Package Template
-Version: 0.0.0.9000
+Title: SpecificTaxId
+Version: 1.0
 Authors@R: 
-    person(given = "J",
-           family = "Wokaty",
+    person(given = "P",
+           family = "Atieno",
            role = c("aut", "cre"),
-           email = "jwokaty@users.noreply.github.com",
+           email = "atienophyllis032@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: A template for creating R packages.
+Description: A package for extracting specific Tax Ids
+Dependency: BiocManager::bugsigdbr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
