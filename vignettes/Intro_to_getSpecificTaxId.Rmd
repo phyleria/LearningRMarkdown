@@ -17,6 +17,22 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(getSpecificTaxId)
 
+``` 
+getMetaphlan <- getSpecificTaxId(df,
+                                 tax.id.type = ("metaphlan"),
+                                 tax.level = "mixed",
+                                 )
+                                 
+ ```
+ ```
+ getTaxname <- getSpecificTaxId(df,
+                                 tax.id.type = ("taxname"),
+                                 tax.level = "mixed",
+                                 )
+
+```
+  
+
 ## Project Description
 #getSpecificTaxId is package with a function that imports data from BugSigDB using bugSigdbr and returns Signatures within the specified Tax Id.
 #It takes two parameters:
@@ -27,20 +43,5 @@ library(getSpecificTaxId)
 #*
 ## Examples
 
-``` 
-getMetaphlan <- getSpecificTaxId(df,
-                                 tax.id.type = ("metaphlan"),
-                                 tax.level = "mixed",
-                                 exact.tax.level = TRUE,
-                                 min.size = 1)
-                                 
- ```
- ```
- getTaxname <- getSpecificTaxId(df,
-                                 tax.id.type = ("taxname"),
-                                 tax.level = "mixed",
-                                 exact.tax.level = TRUE,
-                                 min.size = 1)
 
-```
   
